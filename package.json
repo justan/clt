@@ -1,0 +1,29 @@
+{
+  "name": "clt",
+  "version": "0.0.0",
+  "description": "node.js comand line tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justan/clt.git"
+  },
+  "keywords": [
+    "cli",
+    "arguments",
+    "parser",
+    "color",
+    "命令行工具"
+  ],
+  "author": "justan <ckr189@gmail.com> (http://blog.whosemind.net)",
+  "license": "BSD",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/justan/clt"
+}
