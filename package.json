@@ -14,7 +14,9 @@
   ],
   "author": "justan",
   "license": "MIT",
-  "engines" : { "node" : ">=0.10.3 <0.12" },
+  "engines": {
+    "node": ">=0.10"
+  },
   "dependencies": {
     "colors": "^1.1.2",
     "es6-promise": "^3.3.1",
@@ -23,5 +25,13 @@
   },
   "devDependencies": {
     "tape": "^4.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justan/clt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justan/clt/issues"
+  },
+  "homepage": "https://github.com/justan/clt#readme"
 }
