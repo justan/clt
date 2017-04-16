@@ -1,6 +1,6 @@
 {
   "name": "clt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "my command line tool!",
   "main": "lib/clt.js",
   "scripts": {
