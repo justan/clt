@@ -1,14 +1,20 @@
 #!/usr/bin/env node
 
-var Clt = require('../')
-var pt = require('path')
-var pkg = require('../package.json')
+import Clt from "../lib/clt.js";
+import * as pt from "path";
+
+import { createRequire } from "module";
+
+const require = createRequire(import.meta.url);
+
+const packageJSON = require("../package.json");
+var pkg = require("../package.json");
 
 var clt = new Clt({
-  runnerDir: pt.join(__dirname,  '../cmds'),
-  name: 'clt',
+  runnerDir: new URL("../cmds", import.meta.url).pathname,
+  name: "clt",
   description: pkg.description,
-  version: pkg.version
-})
+  version: pkg.version,
+});
 
-clt.run()
+clt.run();

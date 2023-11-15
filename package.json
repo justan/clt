@@ -2,10 +2,8 @@
   "name": "clt",
   "version": "0.1.2",
   "description": "my command line tool!",
+  "type": "module",
   "main": "lib/clt.js",
-  "scripts": {
-    "test": "tape test"
-  },
   "bin": {
     "clt": "./bin/clt.js"
   },
@@ -15,16 +13,11 @@
   "author": "justan",
   "license": "MIT",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=16.0"
   },
   "dependencies": {
-    "colors": "^1.1.2",
-    "es6-promise": "^3.3.1",
-    "minimist": "^1.2.0",
-    "object-assign": "^4.1.0"
-  },
-  "devDependencies": {
-    "tape": "^4.6.0"
+    "colors": "^1.4.0",
+    "minimist": "^1.2.8"
   },
   "repository": {
     "type": "git",
